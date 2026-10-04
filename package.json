@@ -1,7 +1,7 @@
 {
   "name": "react-native-nitro-svg",
-  "version": "0.1.0",
-  "description": "CoreSVG and AndroidSVG for react native",
+  "version": "0.2.0",
+  "description": "Fast remote SVG rendering for React Native: rasterized off the main thread with CoreSVG (iOS) and AndroidSVG (Android), with memory + disk caching, request deduplication and tinting. Built on Nitro Modules.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -46,7 +46,17 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "web",
+    "svg",
+    "svg-image",
+    "remote-svg",
+    "coresvg",
+    "androidsvg",
+    "nitro",
+    "nitro-modules",
+    "icons",
+    "image-cache"
   ],
   "repository": {
     "type": "git",

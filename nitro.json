@@ -1,0 +1,23 @@
+{
+  "cxxNamespace": ["nitrosvg"],
+  "ios": {
+    "iosModuleName": "NitroSvg"
+  },
+  "android": {
+    "androidNamespace": ["nitrosvg"],
+    "androidCxxLibName": "nitrosvg"
+  },
+  "autolinking": {
+    "NitroSvg": {
+      "ios": {
+        "language": "swift",
+        "implementationClassName": "HybridNitroSvg"
+      },
+      "android": {
+        "language": "kotlin",
+        "implementationClassName": "HybridNitroSvg"
+      }
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}

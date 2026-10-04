@@ -19,6 +19,10 @@ Pod::Spec.new do |s|
     "cpp/**/*.{hpp,cpp}",
   ]
 
+  # CoreSVG is a system framework resolved at runtime (see ios/NitroSvgDocument.swift),
+  # so it is deliberately not linked here.
+  s.frameworks = "UIKit", "CoreGraphics"
+
   s.dependency 'React-jsi'
   s.dependency 'React-callinvoker'
 

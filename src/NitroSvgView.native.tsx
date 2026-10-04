@@ -1,7 +1,7 @@
 import { useLayoutEffect, useMemo, useRef } from 'react';
 import type { ViewStyle } from 'react-native';
 import { callback, getHostComponent } from 'react-native-nitro-modules';
-const NitroSvgConfig = require('../nitrogen/generated/shared/json/NitroSvgConfig.json');
+const NitroSvgConfig = require('react-native-nitro-svg/nitrogen/generated/shared/json/NitroSvgConfig.json');
 import type { NitroSvgMethods, NitroSvgProps } from './NitroSvg.nitro';
 import { normalizeTintColor } from './normalizeTintColor';
 import type { NitroSvgViewProps } from './types';

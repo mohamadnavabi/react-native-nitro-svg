@@ -1,6 +1,6 @@
 {
   "name": "react-native-nitro-svg",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fast remote SVG rendering for React Native: rasterized off the main thread with CoreSVG (iOS) and AndroidSVG (Android), with memory + disk caching, request deduplication and tinting. Built on Nitro Modules.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -10,6 +10,7 @@
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
+    "./nitrogen/generated/shared/json/*": "./nitrogen/generated/shared/json/*",
     "./package.json": "./package.json"
   },
   "files": [
